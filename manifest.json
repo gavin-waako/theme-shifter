@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ThemeShifter — Force Light/Dark Mode",
+  "version": "1.0",
+  "description": "Forces a clean dark or light theme onto any webpage.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

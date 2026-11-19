@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 210px;
+        padding: 12px;
+        font-family: system-ui, -apple-system, sans-serif;
+        background: #f8fafc;
+        margin: 0;
+      }
+      h3 {
+        margin: 0 0 10px 0;
+        font-size: 13px;
+        color: #334155;
+        text-align: center;
+      }
+      .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      button {
+        padding: 8px 12px;
+        border: 1px solid #cbd5e1;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 13px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      button:hover {
+        opacity: 0.9;
+      }
+      #darkBtn {
+        background: #0f172a;
+        color: #f8fafc;
+        border-color: #0f172a;
+      }
+      #lightBtn {
+        background: #ffffff;
+        color: #0f172a;
+      }
+      #resetBtn {
+        background: transparent;
+        color: #64748b;
+        border: none;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Change Page Theme</h3>
+    <div class="btn-group">
+      <button id="darkBtn">Dark Mode</button>
+      <button id="lightBtn">Light Mode</button>
+      <button id="resetBtn">Reset Original</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
